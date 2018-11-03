@@ -21,11 +21,15 @@ class SideMenu extends Component {
         },
         listItem: {
             marginBottom: "15px"
+
         },
         listLink: {
             background: "transparent",
             border: "none",
-            color: "black"
+            color: "#3e959e",
+            
+
+
         },
         filterEntry: {
             border: "1px solid gray",
