@@ -1,0 +1,103 @@
+[
+  {
+  "name": "Belmont Brewing Co",
+  "street": "25 39th Pl",
+  "city": "Long Beach",
+  "state": "CA",
+  "zip": "90803",
+  "url": "https://www.belmontbrewing.com/",
+  "pos": {"lat":33.759308, "lng": -118.148211}
+  },
+  {
+    "name": "Ballast Point Brewing Long Beach",
+    "street": "110 N Marina Dr",
+    "city": "Long Beach",
+    "state": "CA",
+    "zip": "90803",
+    "url": "https://www.ballastpoint.com/",
+    "pos": {"lat":33.746534,"lng":-118.114782}
+  },
+  {
+    "name": "Beachwood BBQ and Brewing",
+    "street": "210 E 3rd St",
+    "city": "Long Beach",
+    "state": "CA",
+    "zip": "90802",
+    "url": "http://beachwoodbbq.com/",
+    "pos": {"lat":33.770110,"lng":-118.190922}
+  },
+  {
+    "name": "Rock Bottom Restaurant and Brewery",
+    "street": "1 Pine Ave",
+    "city": "Long Beach",
+    "state": "CA",
+    "zip": "90802",
+    "url": "http://beachwoodbbq.com/",
+    "pos": {"lat":33.767348,"lng":-118.192561}
+  },
+  {
+    "name": "Trademark Brewing",
+    "street": "233 E Anaheim St",
+    "city": "Long Beach",
+    "state": "CA",
+    "zip": "90813",
+    "url": "http://www.trademarkbrewing.com/",
+    "pos": {"lat":33.782958,"lng":-118.190274}
+  },
+  {
+    "name": "Ten Mile Brewing Company",
+    "street": "1136 E Willow St",
+    "city": "Signal Hill",
+    "state": "CA",
+    "zip": "90755",
+    "url": "https://lbbeer.com/",
+    "pos": {"lat":33.804004,"lng":-118.177834}
+  },
+  {
+    "name": "Steady Brew Beer Co Long Beach",
+    "categories": "brewery",
+    "street": "2936 Clark Ave",
+    "city": "Long Beach",
+    "state": "CA",
+    "zip": "90815",
+    "url": "https://www.steadybrewing.com/",
+    "pos": {"lat":33.809701,"lng":-118.133512}
+  },
+  {
+    "name": "Timeless Pints Brewing Company",
+    "street": "3671 Industry Ave C1",
+    "city": "Lakewood",
+    "state": "CA",
+    "zip": "90712",
+    "url": "http://timelesspints.com/",
+    "pos": {"lat":33.823721,"lng":-118.166375}
+  },
+  {
+    "name": "Liberation Brewing Company",
+    "street": "3630 Atlantic Ave",
+    "city": "Long Beach",
+    "state": "CA",
+    "zip": "90807",
+    "url": "https://www.liberationbrewing.com/",
+    "pos": {"lat":33.823169,"lng":-118.184746}
+  },
+  {
+    "name": "Ambitious Ales ",
+    "street": "4019 Atlantic Ave",
+    "city": "Long Beach",
+    "state": "CA",
+    "zip": "90807",
+    "url": "https://www.ambitiousales.com/",
+    "pos": {"lat":33.831237,"lng":-118.185374}
+  },
+  {
+    "name": "Dutches Brewhouse",
+    "street": "4244 Atlantic Ave",
+    "city": "Long Beach",
+    "state": "CA",
+    "zip": "90807",
+    "url": "https://dutchsbrewhouse.com/",
+    "pos": {"lat":33.833567,"lng":-118.184712}
+  }
+
+]
