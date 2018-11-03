@@ -3,7 +3,7 @@
 ##Project overview
 Neighborhood Maps is the final project for Udacity's Front End Nano degree program. This map shows a list of local breweries in Long Beach CA. Users  are able to click on the map markers that opens an info window. The menu button opens up a side menu with a list of venues and a search box to narrow a specific venue. Once the user clicks on the brewery.
 
-##Dependencies
+## Dependencies
  * Foursquare API http://reactjs.org/
  * Font Awesome https://fontawesome.com/
  * Google Maps - http://cloud.google.com/maps-platform/
@@ -19,7 +19,7 @@ Neighborhood Maps is the final project for Udacity's Front End Nano degree progr
 * Note: Default service worker was used in this app and only works in production build.
 * This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-##Resources used to help build
+## Resources used to help build
 * Webinars: neighborhood map P7 walk-thru with Forrest Walker: https://www.youtube.com/playlist?list=PL4rQq4MQP1crXuPtruu_eijgOUUXhcUCP
 
 * FEND P7 walkthrough with Doug Brown: https://www.youtube.com/watch?v=NVAVLCJwAAo&feature=youtu.be
