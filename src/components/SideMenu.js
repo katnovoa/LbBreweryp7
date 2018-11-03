@@ -27,7 +27,7 @@ class SideMenu extends Component {
             background: "transparent",
             border: "none",
             color: "#3e959e",
-            
+
 
 
         },
