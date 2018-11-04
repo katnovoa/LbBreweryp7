@@ -16,7 +16,7 @@ Neighborhood Maps is the final project for Udacity's Front End Nano degree progr
 * Clone/Download the project to your local machine at https://github.com/katnovoa/LbBreweryp7
 * Install all project dependencies with `npm install`
 * Start the development server with `npm start`, then navigate to http://localhost:3000/ on your local machine
-* Note: Default service worker was used in this app and only works in production build.
+* Note: Default service worker was used in this app and only works in production mode
 * This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ### Resources used to help build

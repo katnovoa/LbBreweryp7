@@ -73,7 +73,7 @@ class App extends Component {
     return (
       <div className= "App">
       <div style={this.styles.header}>
-      <button onClick={this.toggleMenu} style={this.styles.menuButton}>
+      <button onClick={this.toggleMenu} style={this.styles.menuButton} tabIndex="0">
             <i className="fas fa-bars"></i>
           </button>
           <h1>Breweries Long Beach CA</h1>

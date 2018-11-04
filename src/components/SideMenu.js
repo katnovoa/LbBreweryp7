@@ -57,6 +57,7 @@ class SideMenu extends Component {
                             type="text"
                             placeholder="Search..."
                             name="filter"
+                            tabIndex="0"
                             onChange={e => this
                                 .updateQuery(e.target.value)}
                             value={this.state.query} />
@@ -66,8 +67,12 @@ class SideMenu extends Component {
                                 .locations
                                 .map((location, index) => {
                                     return (
-                                        <li style={this.styles.listItem} key={index}>
-                                             <button style={this.styles.listLink} key={index} onClick={e => this.props.clickListItem(index)}>{location.name}</button>
+                                        <li style={this.styles.listItem}
+                                              key={index}>
+                                             <button style={this.styles.listLink}
+                                                        key={index}
+                                                        tabIndex="0"
+                                                        onClick={e => this.props.clickListItem(index)}>{location.name}</button>
                                         </li>
                                     )
                                 })}

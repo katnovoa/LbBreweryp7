@@ -170,6 +170,7 @@ updateMarkers = (locations) => {
             <Map
                 role="application"
                 aria-label="map"
+                tabIndex="0"
                 onReady={this.mapReady}
                 google={this.props.google}
                 zoom={this.props.zoom}
@@ -190,8 +191,8 @@ updateMarkers = (locations) => {
                           {amProps && amProps.images
                             ? (
                                 <div><img
-                                    alt={amProps.name + " Venue Image"}
-                                    src={amProps.images.items[0].prefix + "100x100" + amProps.images.items[0].suffix}/>
+                                    alt={amProps.name + "Brewery Image"}
+                                    src={amProps.images.items[0].prefix + "200x200" + amProps.images.items[0].suffix}/>
                                     <p>Image via Foursquare</p>
                                   </div>
                               )
