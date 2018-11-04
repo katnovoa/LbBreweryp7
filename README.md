@@ -19,7 +19,6 @@ This app was scaffolded using `create-react-app`. By default, this application r
   `npm run build`
 
 
-
 ### Dependencies
    * Foursquare API https://developer.foursquare.com/docs/api
    * Font Awesome https://fontawesome.com/
@@ -33,5 +32,5 @@ This app was scaffolded using `create-react-app`. By default, this application r
 ### Resources
 * Webinars: neighborhood map P7 walk-thru with Forrest Walker
 * FEND P7 walkthrough with Doug Brown
-* EMEA neighborhood map walk-thru: Edoh, Yahra Elharony
+* EMEA neighborhood map walk-thru: Eman, Yahra Elharony
 * Udacity Fend Neighborhood Map project 7 resources
