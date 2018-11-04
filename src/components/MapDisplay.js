@@ -20,6 +20,10 @@ class MapDisplay extends Component {
     };
 
     componentDidMount = () => {
+      window.gm_authFailure = () => {
+         alert('ERROR!! \nFailed to get Google map.')
+         console.log('ERROR!! \nFailed to get Google map.')
+      }
 }
 
     componentWillReceiveProps = (props) => {
@@ -66,10 +70,12 @@ class MapDisplay extends Component {
 
       //look for breweries in foursquare data
       getBusinessInfo = (props, data) => {
+
         return data
               .response
               .venues
               .filter(item => item.name.includes(props.name) || props.name.includes(item.name));
+
       }
 
       onMarkerClick = (props, marker, e) => {
@@ -80,11 +86,17 @@ class MapDisplay extends Component {
 
         //fetch foursquare data for brewery list
         let url = `https://api.foursquare.com/v2/venues/search?client_id=${FS_CLIENT}&client_secret=${FS_SECRET}&v=${FS_VERSION}&radius=100&ll=${props.position.lat},${props.position.lng}&llAcc=100`;
+        let validKey = "SKDEJUAAPYKVNP0CFCXBWJU0PTPDBNVZOBDNMBJEEJPF0M0M";
         let headers = new Headers();
         let request = new Request(url, {
             method: 'Get',
             headers
         });
+        if (FS_CLIENT != validKey){
+          alert('Oops! looks like something went wrong finding locations');
+;
+        };
+
 
         //creates props for active marker
         let activeMarkerProps;
